@@ -60,8 +60,8 @@ export function ScoreBottomNav({ active, onSelect }: ScoreBottomNavProps) {
 }
 
 const styles = StyleSheet.create({
-  nav: { minHeight: 96, backgroundColor: tokens.color.surface, borderColor: tokens.color.border, borderWidth: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around' },
-  item: { minHeight: 80, flex: 1, alignItems: 'center', justifyContent: 'center', gap: 3 },
+  nav: { minHeight: 84, backgroundColor: tokens.color.surface, borderTopColor: tokens.color.border, borderTopWidth: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around' },
+  item: { minHeight: 72, flex: 1, alignItems: 'center', justifyContent: 'center', gap: 3 },
   centerItem: { flex: 1.38 },
   pressed: { opacity: 0.7 },
   label: { fontFamily: tokens.font.medium, fontSize: 12, lineHeight: 18, letterSpacing: 0.4, textAlign: 'center' },
